@@ -1,0 +1,160 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+    font-family: arial,sans-serif;
+}
+.main,
+.nav,
+.header,
+.header ul,
+.buttons,
+.footer,
+.footer ul,
+.footer-middle,
+.footer-middle ul {
+    display: flex;
+}
+.btn.button:hover,
+#hat-btn,
+#hat-btn:hover,
+.form-control:focus-visible {
+    border: 1px solid #ced4da;
+}
+.header-link,
+.header-link:hover,
+.footer-link {
+    text-decoration: none;
+}
+.header,
+.main,
+.header ul,
+.footer {
+    align-items: center;
+}
+.header-link,
+.header-link:hover {
+    color: black;
+}
+.footer,
+.footer ul,
+.footer-middle ul {
+    justify-content: space-between;
+}
+.header ul,
+.buttons {
+    justify-content: center;
+}
+.btn:hover,
+#hat-btn,
+#hat-btn:hover {
+    border-right: none;
+} 
+.footer ul,
+.header ul {
+    list-style-type: none;
+}
+
+
+/* HEADER */
+
+.user-img {
+    border-radius: 50%;
+}
+.square-img {
+    display: inline-block;
+    width: 25px;
+}
+.header {
+    justify-content: end;
+    height: 80px;
+    padding: 30px 5px;
+    padding-right: 25px;
+}
+.header ul {
+    gap: 20px;
+}
+
+/* MAIN */
+
+.main {
+    height: 85vh;
+    padding: 25vh;
+    flex-direction: column;
+}
+.google-search {
+    padding: 30px;
+}
+.logo-img {
+    width: auto;
+    height: auto;
+    padding-bottom: 20px;
+}
+.input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    border-left: none;
+}
+.input-group {
+    width: 700px;
+    padding: 30px;
+}
+.buttons {
+    gap: 10px;
+    padding-bottom: 30px;
+}  
+.search-icon {
+    width: 30px;
+}
+
+.logo-img-text {
+    padding-left: 215px;
+    margin-bottom: -10px;
+    margin-top: -32px;
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    white-space: nowrap;
+}
+.form-control:focus-visible {
+    outline: none;
+}
+  .form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #f2f2f2;
+    height: 50px;
+    padding-top: 25px;
+    padding-right: 35px;
+}
+.footer ul {
+    align-content: center;
+    color: #70757a;
+}
+.footer-link {
+    color: #70757a;
+}
+.footer-link:hover, {
+    color: #70757a;
+    text-decoration: underline;
+}
+
+.footer-left ul, 
+.footer-right ul {
+    gap: 20px;
+}
+.footer-middle {
+    padding-right: 90px;
+}
+.footer-middle ul {
+    gap: 5px;
+}
+.leaf-img {
+    width: 15px;
+}

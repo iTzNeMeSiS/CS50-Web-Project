@@ -1,0 +1,144 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+    font-family: arial,sans-serif;
+}
+.header,
+.header ul,
+.buttons,
+.footer-middle,
+.footer-middle ul,
+.footer,
+.footer ul,
+.main {
+    display: flex;
+}
+.header,
+.footer-middle ul,
+.footer,
+.footer ul {
+    justify-content: space-between;
+}
+.header,
+.header ul,
+.footer,
+.main {
+    align-items: center;
+}
+.header ul,
+.buttons {
+    justify-content: center;
+}
+.footer ul,
+.header ul {
+    list-style-type: none;
+}
+.header-link,
+.header-link:hover,
+.footer-link {
+    text-decoration: none;
+}
+.btn.button:hover,
+#hat-btn,
+#hat-btn:hover,
+.form-control:focus-visible {
+    border: 1px solid #ced4da;
+}
+.btn:hover,
+#hat-btn,
+#hat-btn:hover {
+    border-right: none;
+}
+.form-control:focus-visible,
+.form-control:focus {
+    outline: none;
+}
+.header-link,
+.header-link:hover {
+    color: black;
+}
+
+
+/* HEADER */
+.header {
+    height: 80px;
+    padding: 30px 5px;
+    padding-right: 25px;
+}
+.header ul {
+    gap: 20px;
+}
+.user-img {
+    border-radius: 50%;
+}
+.square-img {
+    display: inline-block;
+    width: 25px;
+}
+
+
+/* MAIN */
+.buttons {
+    gap: 10px;
+    padding-bottom: 30px;
+}
+
+.main {
+    height: 85vh;
+    padding: 25vh;
+    flex-direction: column;
+}
+.google-search {
+    padding: 30px;
+}
+.input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    border-left: none;
+}
+.input-group {
+    width: 700px;
+    padding: 30px;
+}
+.search-icon {
+    width: 30px;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+
+
+/* FOOTER */
+.footer-link {
+    color: #70757a;
+}
+.footer-link:hover {
+    color: #70757a;
+    text-decoration: underline;
+}
+.footer-left ul, 
+.footer-right ul {
+    gap: 20px;
+}
+.footer-middle {
+    padding-right: 90px;
+}
+.footer-middle ul {
+    gap: 5px;
+}
+.footer {
+    background-color: #f2f2f2;
+    height: 50px;
+    padding-top: 25px;
+    padding-right: 35px;
+}
+.footer ul {
+    align-content: center;
+    color: #70757a;
+}
+.leaf-img {
+    width: 15px;
+}

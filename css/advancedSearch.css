@@ -1,0 +1,133 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+    font-family: arial,sans-serif;
+}
+.header,
+.header ul,
+.main-top,
+.main-middle,
+.footer,
+.footer ul {
+    display: flex;
+}
+.header,
+.main-top,
+.footer,
+.footer ul {
+    justify-content: space-between;
+}
+.header,
+.header ul,
+.main-middle,
+.main-top,
+.footer {
+    align-items: center;
+}
+.header ul,
+.footer ul {
+    list-style-type: none;
+}
+
+/* HEADER */
+
+.header {
+    height: 80px;
+    padding: 30px 5px;
+    padding-right: 25px;
+}
+.header ul {
+    justify-content: center;
+    gap: 20px;
+}
+.user-img {
+    border-radius: 50%;
+}
+.square-img {
+    display: inline-block;
+    width: 25px;
+}
+
+
+/* MAIN */
+
+.google-search {
+    padding: 30px;
+}
+.input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    border-left: none;
+}
+.btn:hover {
+    border-right: none;
+} 
+.btn.button:hover {
+    border: 1px solid #ced4da;
+}
+.input-group {
+    width: 700px;
+    padding: 30px;
+}
+.search-icon {
+    width: 30px;
+}
+.form-control:focus-visible {
+    outline: none;
+    border: 1px solid #ced4da;
+}
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+.advanced-search {
+    height: 100px;
+    color: #d93025;
+    font-size: 20px;
+    padding: 30px 50px;
+    border-bottom: 1px solid #ebebeb;
+}
+.main {
+    height: 85vh;
+}
+.main-middle {
+    padding: 0px 50px;
+    justify-content: start;
+}
+.main-top {
+    padding: 30px;
+}
+.main-top-text {
+    padding-right:460px;
+}
+.main-middle-item:nth-of-type(1) {
+    width: 190px;
+}
+
+
+/* FOOTER */
+
+.footer {
+    background-color: #f2f2f2;
+    height: 50px;
+    padding-top: 25px;
+    padding-right: 35px;
+}
+.footer ul {
+    align-content: center;
+    color: #70757a;
+}
+.footer-link {
+    color: #70757a;
+    text-decoration: none;
+}
+.footer-link:hover, {
+    color: #70757a;
+    text-decoration: underline;
+}
+.footer-left ul {
+    gap: 20px;
+}
