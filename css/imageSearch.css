@@ -158,3 +158,58 @@ body {
 .leaf-img {
     width: 15px;
 }
+
+
+/* Responsive */
+
+/* For Mobile */
+@media screen and (max-width: 540px) {
+    .avs {
+        display: none;
+    }
+    .quote {
+        width: 400px;
+    }
+    .footer {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 10vh;
+        padding: 15px;
+    }
+    .footer-link:nth-of-type(2) {
+        text-align: center !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .footer-middle {
+        padding-right: 0px;
+    }
+    .main {
+        height: 81vh;
+    }
+    .input-group {
+        width: 450px;
+    }
+}
+/* For Tablets */
+@media screen and (min-width: 540px) and (max-width: 780px) {
+    .input-group {
+        width: 580px;
+    }
+    .quote {
+        width: 400px;
+    }
+    .footer {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 10vh;
+        padding: 15px;
+    }
+    .main {
+        height: 81vh;
+    }
+    .header {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
