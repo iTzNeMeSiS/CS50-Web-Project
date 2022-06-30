@@ -82,7 +82,7 @@ body {
 /* MAIN */
 
 .main {
-    height: 85vh;
+    height: 84vh;
     padding: 25vh;
     flex-direction: column;
 }
@@ -129,7 +129,7 @@ body {
 
 .footer {
     background-color: #f2f2f2;
-    height: 50px;
+    height: 52px;
     padding-top: 25px;
     padding-right: 35px;
 }
