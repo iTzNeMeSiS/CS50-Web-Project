@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Advanced Search</title>
-    <link rel="icon" type="image/x-icon" href="./images/google_icon-icons.com_62798.ico">
+    <link rel="icon" type="image/x-icon" href="../images/google_icon-icons.com_62798.ico">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
     <link href="../css/advancedSearch.css" rel="stylesheet">
 </head>
@@ -37,68 +37,29 @@
             <div>
                 <h6 class="main-top-text">To do this in the search box</h6>
             </div>
-        </div>
-        <div class="main-middle">
-            <div class="main-middle-item">
-                <p class="main-all-words">all these words:</p>
-            </div>
-                <div class="main-middle-item">
-                    <form action="https://www.google.com/search">
-                        <div class="input-group mb-3 form">
-                            <input type="text" class="form-control" aria-label="Google Search" name="as_q"> <span class="after-text">
-                        </div>
-                    </form>
-                </div>
-                <div class="main-middle-item">
-                    <p class="main-text-left">Type the important words:  <em>tricolor rat terrier</em></p>
-                </div>
-            </div>
-            <div class="main-middle">
-                <div class="main-middle-item">
-                    <p class="main-all-words">this exact word or phrase:</p>
-                </div>
-                    <div class="main-middle-item">
-                        <form action="https://www.google.com/search">
-                            <div class="input-group mb-3 form">
-                                <input type="text" class="form-control" aria-label="Google Search" name="as_epq"> <span class="after-text">
-                            </div>
-                        </form>
-                    </div>
-                    <div class="main-middle-item">
-                        <p class="main-text-left">Put exact words in quotes:  <em>"rat terrier"</em></p>
-                    </div>
-                </div>
-                <div class="main-middle">
-                    <div class="main-middle-item">
-                        <p class="main-all-words">any of these words:</p>
-                    </div>
-                        <div class="main-middle-item">
-                            <form action="https://www.google.com/search">
-                                <div class="input-group mb-3 form">
-                                    <input type="text" class="form-control" aria-label="Google Search" name="as_oq"> <span class="after-text">
-                                </div>
-                            </form>
-                        </div>
-                        <div class="main-middle-item">
-                            <p class="main-text-left">Type OR between all the words you want:  <em>miniature OR standard</em></p>
-                        </div>
-                    </div>
-                    <div class="main-middle">
-                        <div class="main-middle-item">
-                            <p class="main-all-words">none of these words:</p>
-                        </div>
-                            <div class="main-middle-item">
-                                <form action="https://www.google.com/search">
-                                    <div class="input-group mb-3 form">
-                                        <input type="text" class="form-control" aria-label="Google Search" name="as_eq"> <span class="after-text">
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="main-middle-item">
-                                <p class="main-text-left">Put a minus sign just before words you don't want:  <em>-rodent, -"Jack Russell"</em></p>
-                            </div>
-                        </div>
         </main>
+        <div id="forms">
+            <div class="labels">
+                <label class="label">all these words:</label>
+                <label class="label">this exact word or phrase:</label>
+                <label class="label">any of these words:</label>
+                <label class="label">none of these words</label>
+            </div>
+            <form action="https://www.google.com/search?" id="advanced-search-form">
+                <input type="text" name="as_q">
+                <input type="text" name="as_epq">
+                <input type="text" name="as_oq">
+                <input type="text" name="as_eq">
+                <button type="submit" class="button">Advanced Search</button>
+            </form>
+            <div id="text-explanation">
+                <p class="label-right">Type the important words: <em>tri-colour rat terrier</em></p>
+                <p class="label-right">Put exact words in quotes: <em>"rat terrier"</p></em>
+                <p class="label-right">Type OR between all the words you want: <em>miniature</em> OR <em>standard</em></p>
+                <p class="label-right">Put a minus sign just before words that you don't want: <em>-rodent, -"Jack Russell"</em></p>
+            </div>
+        </div>
+</div>
     <!--End-of-Main-->
     <!--Start-of-Footer-->
     <footer class="footer">
