@@ -15,4 +15,4 @@ Skills learned in this project:<br>
 
 Live Preview: https://itznemesis.github.io/CS50-Web-Project/
 
-Source of project: https://cs50.harvard.edu/web/2020/projects/0/search/
+Source of project: https://cs50.harvard.edu/web/2020/projects/0/search/a
