@@ -95,10 +95,10 @@ input:focus {
     gap: 40px;
 }
 #text-explanation {
-    gap: 6px;
+    gap: 12px;
 }
 #advanced-search-form {
-    gap: 15px;
+    gap: 16px;
     width: 400px;
 }
 .labels {
@@ -108,31 +108,31 @@ input:focus {
 .labels label {
     padding-left: 40px;
     width: 235px;
+    white-space: pre;
+    color: #222;
+    font-size: 13px;
+    line-height: 16px;
+    height: 25px;
+}
+.label-right {
+    color: #666;
+    font-size: 11px;
+    white-space: pre;
 }
 .button {
-  background-image: linear-gradient(#42A1EC, #0070C9);
+  background-color: #4d90fe;
   border: 1px solid #0077CC;
   border-radius: 4px;
-  box-sizing: border-box;
   color: #FFFFFF;
-  cursor: pointer;
-  direction: ltr;
-  display: block;
-  font-family: "SF Pro Text","SF Pro Icons","AOS Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 17px;
-  font-weight: 400;
-  letter-spacing: -.022em;
-  line-height: 1.47059;
   min-width: 30px;
-  max-width: 200px;
-  overflow: visible;
-  padding: 4px 15px;
+  max-width: 100px;
+  padding: 4px 5px;
   text-align: center;
   vertical-align: baseline;
-  user-select: none;
-  -webkit-user-select: none;
   touch-action: manipulation;
   white-space: nowrap;
+  margin-left: 300px;
+  font-size: 11px;
 }
 
 .button:disabled {
@@ -155,6 +155,12 @@ input:focus {
 .button:focus {
   box-shadow: rgba(131, 192, 253, 0.5) 0 0 0 3px;
   outline: none;
+}
+.em {
+    color: #666;
+    font-family: monospace;
+    font-size: 11px;
+    white-space: pre;
 }
 
 /* FOOTER */
@@ -214,6 +220,12 @@ input:focus {
     p.label-right {
         display: none;
     }
+    .button {
+        margin-left: 140px;
+    }
+    .labels {
+        width: 135px;
+    }
 }
 /* For Tablets */
 @media screen and (min-width: 540px) and (max-width: 1100px) {
@@ -228,5 +240,11 @@ input:focus {
     }
     .label-right {
         display: none;
+    }
+    .button {
+        margin-left: 300px;
+    }
+    .labels {
+        width: 200px;
     }
 }
