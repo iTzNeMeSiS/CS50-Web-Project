@@ -1,4 +1,4 @@
-# CS50-Web-Project
+# search
  
 This project is to build on practicing my basic HTML, CSS knowledge that I have learned while doing CS50’s Web Programming with Python and JavaScript course. I will be building google's search page, google's images search page, and a simple version of google's advanced search page.
 
