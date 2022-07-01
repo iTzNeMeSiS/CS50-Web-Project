@@ -88,9 +88,9 @@ a {
     text-decoration: none;
 }
 .main {
-    padding: 27vh;
+    padding: 24vh;
     flex-direction: column;
-    padding-bottom: 25vh;
+    padding-bottom: 29vh;
 }
 .google-search {
     padding: 30px;
@@ -143,9 +143,13 @@ input {
 
 .footer {
     background-color: #f2f2f2;
-    height: 73px;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 20px;
+    padding-right: 30px;
     padding-top: 25px;
-    padding-right: 35px;
 }
 .footer ul {
     align-content: center;

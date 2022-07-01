@@ -148,11 +148,16 @@ input {
 .footer-middle ul {
     gap: 5px;
 }
+
 .footer {
     background-color: #f2f2f2;
     height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 20px;
+    padding-right: 30px;
     padding-top: 25px;
-    padding-right: 35px;
 }
 .footer ul {
     align-content: center;
