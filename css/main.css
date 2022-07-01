@@ -106,7 +106,6 @@ a:hover {
     gap: 10px;
     padding-bottom: 30px;
 }
-
 .main {
     padding: 23vh;
     flex-direction: column;
@@ -127,8 +126,10 @@ a:hover {
 .form-control:focus {
     box-shadow: none;
 }
-
-
+input {
+    border-radius: 40px !important;
+    padding-left: 15px !important;
+}
 /* FOOTER */
 .footer-link {
     color: #70757a;
