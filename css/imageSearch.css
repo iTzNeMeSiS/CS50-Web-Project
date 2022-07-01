@@ -139,7 +139,7 @@ body {
 .footer-link {
     color: #70757a;
 }
-.footer-link:hover, {
+.footer-link:hover {
     color: #70757a;
     text-decoration: underline;
 }

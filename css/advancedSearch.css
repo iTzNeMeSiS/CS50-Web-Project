@@ -181,7 +181,7 @@ input {
     color: #70757a;
     text-decoration: none;
 }
-.footer-link:hover, {
+.footer-link:hover {
     color: #70757a;
     text-decoration: underline;
 }
