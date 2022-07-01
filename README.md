@@ -13,6 +13,6 @@ After completing this project, I have accomplished:
 Skills learned in this project:<br>
 ![alt html logo](/images/html.png) ![alt css logo](/images/css.png) ![alt git logo](/images/git.png) ![alt vscode logo](/images/vscode.png)<br>
 
-Live Preview: https://itznemesis.github.io/CS50-Web-Project/
+Live Preview: https://itznemesis.github.io/search/
 
 Source of project: https://cs50.harvard.edu/web/2020/projects/0/search/
