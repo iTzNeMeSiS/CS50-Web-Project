@@ -11,7 +11,7 @@ After completing this project, I have accomplished:
     Properly implemented various types of CSS selectors.
 
 Skills learned in this project:<br>
-![alt html logo](/images/html.png) ![alt css logo](/images/css.png) ![alt git logo](/images/git.png) ![alt vscode logo](/images/vscode.png)<br>
+![alt html logo](/search/images/html.png) ![alt css logo](/search/images/css.png) ![alt git logo](/search/images/git.png) ![alt vscode logo](/search/images/vscode.png)<br>
 
 Live Preview: https://itznemesis.github.io/CS50-Web-Project/
 
