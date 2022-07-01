@@ -7,6 +7,7 @@
 }
 body {
     font-family: arial,sans-serif;
+    font-size: 14px;
 }
 .header,
 .header ul,
@@ -70,6 +71,9 @@ body {
     padding: 30px 5px;
     padding-right: 25px;
 }
+.header-link:hover {
+    text-decoration: underline;
+}
 .header ul {
     gap: 20px;
 }
@@ -80,9 +84,24 @@ body {
     display: inline-block;
     width: 25px;
 }
+.header-link,
+.footer-link {
+    font-size: 14px;
+}
+.btn.btn-primary {
+    background-color: #1a73e8ad;
+    text-decoration: none;
+}
 
 
 /* MAIN */
+a {
+    color: #1a0dab;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
 .buttons {
     gap: 10px;
     padding-bottom: 30px;
