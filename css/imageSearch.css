@@ -6,14 +6,6 @@
   padding: 0;
 }
 
-body {
-    font-family: arial,sans-serif;
-    font-size: 14px;
-}
-a {
-    color: #1a0dab;
-    text-decoration: none;
-  }
 .main,
 .nav,
 .header,
@@ -87,9 +79,18 @@ a {
 
 /* MAIN */
 
+body {
+    font-family: arial,sans-serif;
+    font-size: 14px;
+}
+a {
+    color: #1a0dab;
+    text-decoration: none;
+}
 .main {
     padding: 27vh;
     flex-direction: column;
+    padding-bottom: 25vh;
 }
 .google-search {
     padding: 30px;
@@ -131,12 +132,14 @@ a {
 select {
     display: none;
 }
-
+form {
+    padding-top: 15px;
+}
 /* FOOTER */
 
 .footer {
     background-color: #f2f2f2;
-    height: 70px;
+    height: 73px;
     padding-top: 25px;
     padding-right: 35px;
 }
@@ -214,6 +217,6 @@ select {
     }
     .header {
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        justify-content: end;
     }
 }

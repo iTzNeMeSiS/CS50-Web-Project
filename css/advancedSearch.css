@@ -33,7 +33,6 @@ body {
 .footer ul {
     list-style-type: none;
 }
-
 /* HEADER */
 
 .header {
@@ -52,8 +51,6 @@ body {
     display: inline-block;
     max-width: 25px;
 }
-
-
 /* MAIN */
 input:focus-visible {
     outline: none;
@@ -86,13 +83,11 @@ input:focus {
 #forms {
     display: flex;
     flex-direction: row;
+    gap: 40px;
 }
 #text-explanation, #advanced-search-form, .labels {
     display: flex;
     flex-direction: column;
-}
-#forms {
-    gap: 40px;
 }
 #text-explanation {
     gap: 12px;
@@ -161,12 +156,10 @@ input:focus {
 input {
     padding-left: 5px;
 }
-
 /* FOOTER */
-
 .footer {
     background-color: #f2f2f2;
-    height: 56px;
+    height: 64px;
     padding-top: 25px;
     padding-right: 35px;
     position:absolute;
@@ -195,12 +188,9 @@ input {
     color: #70757a;
     text-decoration: underline;
 }
-
 /* Responsive */
-
 /* For Mobile */
 @media screen and (max-width: 540px) {
-
     .input-group {
         width: 265px;
     }
