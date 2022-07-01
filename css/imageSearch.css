@@ -82,8 +82,7 @@ body {
 /* MAIN */
 
 .main {
-    height: 84vh;
-    padding: 25vh;
+    padding: 27vh;
     flex-direction: column;
 }
 .google-search {
@@ -129,7 +128,7 @@ body {
 
 .footer {
     background-color: #f2f2f2;
-    height: 52px;
+    height: 70px;
     padding-top: 25px;
     padding-right: 35px;
 }
@@ -173,7 +172,7 @@ body {
     .footer {
         flex-wrap: wrap;
         justify-content: center;
-        height: 10vh;
+        height: 20vh;
         padding: 15px;
     }
     .footer-link:nth-of-type(2) {
@@ -183,9 +182,6 @@ body {
     }
     .footer-middle {
         padding-right: 0px;
-    }
-    .main {
-        height: 81vh;
     }
     .input-group {
         width: 450px;

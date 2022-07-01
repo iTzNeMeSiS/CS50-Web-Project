@@ -89,8 +89,7 @@ body {
 }
 
 .main {
-    height: 83vh;
-    padding: 25vh;
+    padding: 23vh;
     flex-direction: column;
 }
 .google-search {
@@ -159,7 +158,7 @@ body {
     .footer {
         flex-wrap: wrap;
         justify-content: center;
-        height: 10vh;
+        height: 20vh;
         padding: 15px;
     }
     .footer-link:nth-of-type(2) {
