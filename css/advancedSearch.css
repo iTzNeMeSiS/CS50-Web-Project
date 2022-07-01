@@ -66,9 +66,10 @@ input:focus {
 }
 .main-top {
     padding: 30px;
+    width: 2000px;
 }
 .main-top-text {
-    padding-right:500px;
+    padding-right: 39vw;
 }
 .main-middle-item:nth-of-type(1) {
     width: 190px;
