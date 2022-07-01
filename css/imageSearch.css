@@ -67,7 +67,7 @@ body {
 }
 .square-img {
     display: inline-block;
-    width: 25px;
+    max-width: 25px;
 }
 .header {
     justify-content: end;
