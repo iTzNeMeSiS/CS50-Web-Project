@@ -107,7 +107,6 @@ body {
 .search-icon {
     width: 30px;
 }
-
 .logo-img-text {
     padding-left: 215px;
     margin-bottom: -10px;
@@ -122,6 +121,9 @@ body {
   .form-control:focus {
     outline: none;
     box-shadow: none;
+}
+select {
+    display: none;
 }
 
 /* FOOTER */
