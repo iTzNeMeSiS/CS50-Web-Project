@@ -179,6 +179,7 @@ input {
     }
     .quote {
         width: 400px;
+        text-align: center;
     }
     .footer {
         flex-wrap: wrap;
@@ -208,6 +209,7 @@ input {
     }
     .quote {
         width: 400px;
+        text-align: center;
     }
     .footer {
         flex-wrap: wrap;
