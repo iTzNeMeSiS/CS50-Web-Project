@@ -18,3 +18,11 @@ Live Preview: https://itznemesis.github.io/search/
 Source of project: https://cs50.harvard.edu/web/2020/projects/0/search/
 
 Youtube Demo: https://www.youtube.com/watch?v=8PhAAI7F4-Y
+
+Preview:
+
+![alt Google-Search Preview](/resources/preview1.png)
+
+![alt Google-Images Preview](/resources/preview2.png)
+
+![alt Google-Advanced-Search Preview](/resources/preview3.png)
