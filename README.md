@@ -21,8 +21,8 @@ Youtube Demo: https://www.youtube.com/watch?v=8PhAAI7F4-Y
 
 Preview:
 
-![alt Google-Search Preview](/resources/preview1.png)
+![alt Google-Search Preview](/images/preview1.png)
 
-![alt Google-Images Preview](/resources/preview2.png)
+![alt Google-Images Preview](/images/preview2.png)
 
-![alt Google-Advanced-Search Preview](/resources/preview3.png)
+![alt Google-Advanced-Search Preview](/images/preview3.png)
